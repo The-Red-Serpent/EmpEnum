@@ -352,7 +352,7 @@ func runWeb(args []string) {
 
 func main() {
 	if len(os.Args) < 2 {
-		fmt.Fprintln(os.Stderr, "usage: dorkscrape cli [-q dork] [-start N] [-pages N] [-key K] [-f table|json|csv] [-o file.json]\n       dorkscrape web [-addr host:port] [-key K]")
+		fmt.Fprintln(os.Stderr, "usage: empenum cli [-q dork] [-start N] [-pages N] [-key K] [-f table|json|csv] [-o file.json]\n       empenum web [-addr host:port] [-key K]")
 		os.Exit(2)
 	}
 	switch os.Args[1] {
